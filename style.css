@@ -1,4 +1,4 @@
-/* ======== ESTILO GERAL ======== */
+/*ESTILO GERAL*/
 html {
     background: #111; /* fundo geral mais suave */
 }
@@ -13,7 +13,7 @@ body {
     display: flex;
 }
 
-/* ======== BARRA LATERAL ======== */
+/*BARRA LATERAL*/
 .site-sidebar {
     position: fixed;
     top: 0;
@@ -44,6 +44,7 @@ body {
 }
 
 /* Navegação lateral */
+
 .sidebar-nav ul {
     list-style: none;
     padding: 0;
@@ -56,19 +57,24 @@ body {
     margin: 25px 0;
 }
 
-.sidebar-nav a {
-    color: #fff;
+/* Estilo aplicado aos botões da sidebar */
+.sidebar-nav button {
+    background: none;        
+    border: none;               
+    width: 100%;               
+    color: #fff;              
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 15px;
     border-radius: 10px;
     display: block;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.sidebar-nav a:hover {
-    background: #ffd700;
+.sidebar-nav button:hover {
+    background: #ffd700; 
     color: #000;
     box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
 }
@@ -83,9 +89,9 @@ body {
     font-weight: bold;
 }
 
-/* ======== CONTEÚDO PRINCIPAL ======== */
+/*CONTEÚDO PRINCIPAL */
 .main-content {
-    margin-left: 260px; /* Espaço para a sidebar */
+    margin-left: 260px;
     padding: 40px;
     width: calc(100% - 260px);
 }
@@ -98,7 +104,7 @@ body {
     font-size: 32px;
 }
 
-/* ======== CARDS DOS PRODUTOS ======== */
+/*CARDS DOS PRODUTOS*/
 main {
     display: flex;
     justify-content: center;
@@ -153,7 +159,7 @@ main {
     background-color: #ff3b3b;
 }
 
-/* ======== RODAPÉ ======== */
+/*RODAPÉ*/
 footer {
     margin-top: 50px;
     text-align: center;
