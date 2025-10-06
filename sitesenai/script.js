@@ -1,6 +1,8 @@
 let cartCount = 0;
 let cartItems = []; 
 const cartDisplay = document.getElementById('cart-count');
+const numero = "5541999784433"
+const msg = "Estou com fome!"
 
 document.querySelectorAll('.add-cart').forEach(button => {
     button.addEventListener('click', (event) => {
@@ -12,7 +14,6 @@ document.querySelectorAll('.add-cart').forEach(button => {
         alert(`${itemName} foi adicionado ao carrinho!`);
     });
 });
-
 
 document.querySelectorAll('.nav-btn').forEach(button => {
     button.addEventListener('click', (event) => {
@@ -37,3 +38,9 @@ document.querySelectorAll('.nav-btn').forEach(button => {
         }
     });
 });
+
+
+document.getElementById("zap").addEventListener("click", ()=>{
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(msg)}`;
+    window.open(url, "_blank")})
+
