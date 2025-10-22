@@ -167,3 +167,58 @@ footer {
     font-size: 18px;
 }
 
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0; 
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #b30000;
+}
+
+#modal-add {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#modal-add:hover {
+    background-color: #ff3b3b;
+}
+
+#quantity {
+    width: 70px;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
