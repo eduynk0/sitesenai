@@ -1,0 +1,7 @@
+Colégio SESI da Indústria - Pinhais
+
+Relatório - Senai Food
+
+Equipe 04: Eduardo N., Evelyn, João D., João K., Maria M., Rodrigo B..
+
+Dia 20: O código foi testado analisando as funcionalidades da barra de tarefas, os quais estão todos funcionais e o sistema de adição ao carrinho, também atende aos requisitos.
