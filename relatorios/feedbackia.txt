@@ -1,0 +1,46 @@
+FEEDBACK IA
+
+1. Visão geral
+
+O site apresenta-se como um “Cardápio” de comidas: a página principal mostra itens como “Sushi”, “Râmen”, “Yakisoba”. 
+eduynk0.github.io
+
+O menu de navegação inclui “Sobre”, “Locais”, “Carrinho 0”, “Contato”. 
+eduynk0.github.io
+
+O rodapé indica: “© 2025 Senai Food – Todos os direitos reservados”. 
+eduynk0.github.io
+
+Em termos de estrutura, trata-se de um site simples (uma página ou poucas) com foco em exibição de produto/serviço de alimentação.
+
+2. Pontos positivos
+
+O layout é direto: o usuário vê claramente o cardápio com imagens e botões “Adicionar ao carrinho”. Isso favorece usabilidade para quem quer navegar rápido.
+
+A presença de navegação (“Sobre”, “Locais”, etc) indica que há seções além do cardápio, o que pode ajudar na credibilidade e informação.
+
+Data no rodapé (“2025”) sugere que o site está atualizado ou ao menos recentemente publicado.
+
+3. Oportunidades de melhoria
+
+O site é muito básico; por exemplo, na listagem de itens falta descrição, preços, talvez variações ou ingredientes. Isso pode impactar a decisão do usuário.
+
+O botão “Carrinho 0” mostra quantidade de itens, mas não se vê claramente um fluxo completo de checkout (pelo menos na visualização inicial). Garantir que o processo de compra funcione bem é importante.
+
+As seções “Sobre”, “Locais”, “Contato” devem conter conteúdo mais robusto (endereços, mapas, horário de funcionamento, valores). Se estiverem vazias ou com pouco conteúdo, isso prejudica confiança.
+
+Seria bom adicionar informações de acessibilidade (alt nas imagens, cores contrastantes) e responsividade para celulares (não pude confirmar visualmente).
+
+SEO / performance: carregar imagens otimizadas, metadados etc.
+
+4. Público-alvo e funcionalidade esperada
+
+O público-alvo parece ser pessoas interessadas em refeições rápidas de estilo asiático (sushi, ramén, yakisoba).
+
+A funcionalidade principal esperada: seleção de pratos → adição ao carrinho → compra ou pedido. Também informações sobre onde comer (“Locais”) ou contato para delivery/reservas.
+
+Se o site for para um negócio físico, então ter “Locais” bem detalhados ajuda. Se for e-commerce, deve haver integração de pagamento/envio.
+
+5. Conclusão
+
+O site “Senai Food” apresenta uma boa base: design simples e funcional para mostrar menu de comida e permitir adição ao carrinho. No entanto, para torná-lo mais profissional e completo, seria ideal expandir conteúdo nas páginas de “Sobre”, “Locais”, “Contato”, melhorar a oferta de informações sobre os pratos (descrição, preço, alergênicos), além de garantir o fluxo de compra e otimização técnica (acessibilidade, mobile, SEO).
