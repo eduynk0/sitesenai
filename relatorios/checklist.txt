@@ -1,0 +1,103 @@
+- Checklist de Boas Práticas – Itens 
+
+  
+- Estrutura do HTML 
+
+> O documento começa com <!DOCTYPE html>. Possui tipo de arquivo. 
+
+> As tags <html>, <head> e <body> estão corretamente abertas e fechadas. Todas fechadas corretamente .
+
+> Há uma tag <title> com o nome da página. Possui nome.
+
+> O idioma está definido (<html lang="pt-br">). Possui a linguagem.
+
+> O <meta charset="UTF-8"> está presente. Possui tipo de caracteres.
+
+> As seções semânticas (<header>, <main>, <footer>, <section>, <article>) estão bem utilizadas. Possui e são bem definidas.
+
+> Todas as tags estão corretamente alinhadas (sem sobreposição incorreta). Possui boa indentação.
+
+> Não há tags desnecessárias ou repetidas. Não possui, bem otimizado.
+
+> O código está limpo, sem linhas em branco excessivas. Tudo bem declarado.
+
+ 
+- Organização e Legibilidade 
+
+> A indentação (recuo das linhas) está correta e consistente. Está organizado.
+
+> Há espaçamento adequado entre seções do código. Possui bom espaçamento.
+
+> O código é fácil de ler e compreender. Funções bem definidas.
+
+> Foram usados comentários (<!	>) para identificar partes do código. Possui comentários.
+
+> As classes e IDs têm nomes descritivos (ex: menu-principal, rodape, btn- enviar). Funcionalidades tem nomes claros. 
+
+> Os nomes não contêm acentos, espaços ou letras maiúsculas inconsistentes. Há padrão na definição dos nomes. 
+
+> Há padronização no uso de aspas simples ou duplas. Padronizado em aspas duplas.
+
+> O arquivo HTML foi nomeado de forma clara (ex: index.html, contato.html). Arquivos com nomes e terminações claras.
+
+
+- Aparência e Design 
+
+> O layout segue um padrão visual coerente em todas as páginas. Possui boa aparência, apesar de ser página única.
+
+> As cores escolhidas garantem boa leitura (contraste adequado). Cores garantem boa visualização e design.
+
+> As fontes são legíveis e padronizadas. Fontes bem escolhidas e padrões.
+
+> As imagens têm tamanho proporcional e não distorcido. Possuem tamanho padrão.
+
+> Nenhuma imagem aparece quebrada. Todas imagem funcionais.
+
+> O favicon (ícone da aba) foi configurado. Ainda não definido.
+
+> O site tem aparência organizada e alinhada. Possui boa estrutura e organização.
+
+
+- Funcionalidade 
+
+> Todos os links funcionam e direcionam corretamente. Todos funcionais.
+
+> Os botões executam as ações esperadas. Todos correspondem as suas funções.
+
+> O menu de navegação leva para as páginas corretas. Direcionamentos e alertas bem determinados.
+
+> As imagens têm caminhos corretos (src funcionando). Imagens salvas em img.
+
+> O CSS e o JavaScript estão corretamente vinculados (<link> e <script>). Estão corretamente atribuídos.
+
+> Formulários enviam informações ou exibem mensagens corretamente. Informações exibidas corretamente.
+
+> Campos obrigatórios estão identificados. O site não possui campos.
+
+> O botão “Enviar” ou “Cadastrar” funciona. Botões tem outras funções.
+
+  
+- Responsividade e Acessibilidade 
+
+> O site se adapta bem a diferentes tamanhos de tela. Possui adaptação “flex”.
+
+> Foi testado no modo “Inspecionar” (celular e tablet). Apenas em guias do computador.
+
+> Há texto alternativo (alt) em todas as imagens. Sim .
+
+> O contraste de cores atende à leitura. Sim.
+
+> Os títulos seguem hierarquia (<h1>, <h2>, <h3>…). Sim.
+
+> É possível navegar pelo teclado (Tab/Enter). Sim.
+
+> O site não tem textos piscando ou elementos que atrapalhem a leitura. Não.
+
+> O conteúdo é compreensível mesmo sem imagens. Sim.
+
+  
+- Padrões definidos pelo grupo
+  
+> Definimos uma convenção de nomes para classes e IDs. Sim.
+  
+> Combinamos uma paleta de cores padrão para todas as páginas. Sim. 
