@@ -41,7 +41,7 @@ Você pode acessar o projeto online através do link:
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por **Eduardo Nakamura** como parte das atividades do curso do **SENAI**.  
+Desenvolvido pela **Equipe 04** como parte das atividades do curso do **SENAI**.  
 Sinta-se à vontade para contribuir com melhorias e sugestões!
 
 ---
