@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho - Senai Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======== BARRA LATERAL ======== -->
+  <aside class="site-sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Senai Food Logo" width="180">
+      </a>
+      <h1>Senai Food</h1>
+    </div>
+
+    <nav class="sidebar-nav">
+      <ul>
+        <li><button class="nav-btn" data-action="inicio">Início</button></li>
+        <li><button class="nav-btn" data-action="sobre">Sobre</button></li>
+        <li><button class="nav-btn" data-action="locais">Locais</button></li>
+        <li><button class="nav-btn" data-action="carrinho">Carrinho <span id="cart-count">0</span></button></li>
+        <li><button id="zap">Contato</button></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- ======== CONTEÚDO PRINCIPAL ======== -->
+  <div class="main-content">
+    <h2 class="menu-title">Seu Carrinho</h2>
+
+    <section id="cart-container" class="cart-container">
+      <ul id="cart-list"></ul>
+
+      <div id="cart-summary" class="cart-summary">
+        <p><strong>Total:</strong> <span id="total-price">R$ 0,00</span></p>
+        <button id="finalizar-compra" class="btn-comprar">Finalizar Compra no WhatsApp</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Senai Food - Todos os direitos reservados</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

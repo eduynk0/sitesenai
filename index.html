@@ -2,20 +2,24 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Senai Food</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- BARRA LATERAL -->
+  <!-- ======== BARRA LATERAL ======== -->
   <aside class="site-sidebar">
     <div class="sidebar-logo">
-      <img src="img/logo.png" alt="Senai Food Logo" width="200">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Senai Food Logo" width="180">
+      </a>
       <h1>Senai Food</h1>
     </div>
 
     <nav class="sidebar-nav">
       <ul>
+        <li><button class="nav-btn" data-action="inicio">Início</button></li>
         <li><button class="nav-btn" data-action="sobre">Sobre</button></li>
         <li><button class="nav-btn" data-action="locais">Locais</button></li>
         <li><button class="nav-btn" data-action="carrinho">Carrinho <span id="cart-count">0</span></button></li>
@@ -24,44 +28,57 @@
     </nav>
   </aside>
 
-  <!-- CONTEÚDO PRINCIPAL -->
+  <!-- ======== CONTEÚDO PRINCIPAL ======== -->
   <div class="main-content">
     <h2 class="menu-title">Cardápio</h2>
 
-    <main class="menu-container">
-      <div class="item" data-name="Sushi" data-preco="22.22" data-desc="Sushi tradicional com salmão fresco e arroz japonês.">
-        <img src="img/sushi.png" alt="Sushi">
-        <p>Sushi</p>
-        <button class="add-cart" data-name="Sushi">Adicionar ao carrinho</button>
-      </div>
+<main class="menu-container">
 
-      <div class="item" data-name="Râmen" data-preco="22.22" data-desc="Râmen com caldo encorpado, macarrão e carne de porco.">
-        <img src="img/ramen.png" alt="Râmen">
-        <p>Râmen</p>
-        <button class="add-cart" data-name="Râmen">Adicionar ao carrinho</button>
-      </div>
+  <div class="item" 
+       data-name="Sushi" 
+       data-preco="22.22" 
+       data-desc="Sushi tradicional com salmão fresco, arroz japonês e alga nori.">
+    <img src="img/sushi.png" alt="Sushi">
+    <p>Sushi</p>
+    <button class="add-cart">Adicionar ao carrinho</button>
+  </div>
 
-      <div class="item" data-name="Yakisoba" data-preco="22.22" data-desc="Yakisoba com legumes frescos e molho oriental.">
-        <img src="img/yakisoba.png" alt="Yakisoba">
-        <p>Yakisoba</p>
-        <button class="add-cart" data-name="Yakisoba">Adicionar ao carrinho</button>
-      </div>
-    </main>
+  <div class="item" 
+       data-name="Râmen" 
+       data-preco="22.17" 
+       data-desc="Râmen artesanal com caldo de porco, macarrão e ovo cozido.">
+    <img src="img/ramen.png" alt="Râmen">
+    <p>Râmen</p>
+    <button class="add-cart">Adicionar ao carrinho</button>
+  </div>
+
+  <div class="item" 
+       data-name="Yakisoba" 
+       data-preco="17.17" 
+       data-desc="Yakisoba com legumes frescos e frango grelhado.">
+    <img src="img/yakisoba.png" alt="Yakisoba">
+    <p>Yakisoba</p>
+    <button class="add-cart">Adicionar ao carrinho</button>
+  </div>
+
+</main>
 
     <footer>
       <p>&copy; 2025 Senai Food - Todos os direitos reservados</p>
     </footer>
   </div>
 
-  <!-- MODAL DO PRODUTO -->
+  <!-- ======== POP-UP DO PRODUTO ======== -->
   <div id="product-modal" class="modal">
     <div class="modal-content">
       <span class="close-btn">&times;</span>
       <h2 id="modal-name"></h2>
       <p id="modal-desc"></p>
       <p id="modal-price"></p>
+
       <label for="quantity">Quantidade:</label>
       <input type="number" id="quantity" min="1" value="1">
+
       <button id="modal-add">Adicionar ao carrinho</button>
     </div>
   </div>
